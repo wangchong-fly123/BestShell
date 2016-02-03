@@ -1,2 +1,2 @@
 # BestShell
-some useful 
+some useful shell
