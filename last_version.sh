@@ -10,7 +10,7 @@ last_version()
     ssh $user_name@$host_ip "
 
     cd $base_dir
-    ls -lrt | tail -n 10
+    ls -lrt --color | tail -n 10
     "
 }
 
