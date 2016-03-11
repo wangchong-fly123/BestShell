@@ -6,7 +6,7 @@ dest_user=yuchunjia
 dest_ip=192.168.0.224
 version=$1
 
-if [ ! "$version"]
+if [ ! "$version" ]
 then
     echo "usage: `basename $0` <version>"
     exit 1
